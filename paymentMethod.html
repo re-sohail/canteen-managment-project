@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="payment-container">
+
+        <!-- NavBar -->
+        <div class="nav">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login-btn">
+                <a href="Cart.html">
+                    <div class="cart-number">0</div>
+                </a>
+                <a href="Cart.html"><i class="ri-shopping-cart-line"></i></a>
+                <button><a href="Login.html">Login</a></button>
+                <button><a href="Registor.html">Register</a></button>
+            </div>
+        </div>
+
+        <!-- Payment -->
+        <div class="payment-page1">
+            <div class="payment-left">
+                <h1>Payment details</h1>
+                <div class="payment-company">
+                    <img src="img/easypasisa.png" alt="">
+                    <img src="img/JazzCash_logo.png" alt="">
+                </div>
+                <p>or pay another way</p>
+                <div class="payment-name">
+                    <label for="name">Cardholder Name</label>
+                    <input type="text" placeholder="Ali Ahmad">
+                </div>
+                <div class="payment-card">
+                    <div class="card-no card-deco">
+                        <label for="name">Card Number</label>
+                        <input type="number" max="16" placeholder="1111 1111 1111 1111">
+                    </div>
+                    <div class="expiry card-deco">
+                        <label for="name">Expiration</label>
+                        <input type="number" max="5" placeholder="MM/YY">
+                    </div>
+                    <div class="card-code card-deco">
+                        <label for="name">CVV</label>
+                        <input type="number" max="3" placeholder="111">
+                    </div>
+                </div>
+                <div class="card-code card-deco postal-code">
+                    <label for="name">Postal Code</label>
+                    <input type="number" max="3" placeholder="Optional">
+                </div>
+            </div>
+            <div class="payment-right">
+                <div class="cart-right payment-totals">
+                    <h1>Order Summary</h1>
+                    <div class="total-price">
+                        <p>Sub Total</p>
+                        <p>Rs. 1200</p>
+                    </div>
+                    <div class="total-price">
+                        <p>Discount</p>
+                        <p>Rs. 0</p>
+                    </div>
+                    <div class="total-price totally">
+                        <p>Setting Fees</p>
+                        <p>Rs. 0</p>
+                    </div>
+                    <div class="total-price">
+                        <p>Total</p>
+                        <p>Rs. 1200</p>
+                    </div>
+                    <div class="cash-pick">
+                        <input type="radio">
+                        <p>Cash on Picking</p>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-heading">
+                <h1>Canteen</h1>
+                <p>Management System</p>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-lower-left">
+                    <div class="lower-h">
+                        <h1>Pages</h1>
+                        <div class="lower-page">
+                            <h1><a href="index.html">Home</a></h1>
+                            <h1><a href="Menu.html">Menu</a></h1>
+                            <h1><a href="Contact.html">Contact</a></h1>
+                        </div>
+                    </div>
+                    <div class="lower-c">
+                        <div class="lower-h">
+                            <h1>Categories</h1>
+                            <div class="lower-page">
+                                <h1>Fruit and vegetables</h1>
+                                <h1>Starchy food</h1>
+                                <h1>Dairy</h1>
+                                <h1>Protein</h1>
+                                <h1>Fat</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-r">
+                        <div class="lower-h">
+                            <h1>Conatct with us</h1>
+                            <div class="social-media">
+                                <a href="/"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="/"><i class="ri-instagram-fill"></i></a>
+                                <a href="/"><i class="ri-linkedin-box-fill"></i></a>
+                                <a href="/"><i class="ri-whatsapp-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-lower-right">
+                    <h1>Join Our Newsletter</h1>
+                    <div class="newsletter-email">
+                        <input type="email" id="email" placeholder="Email" required>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

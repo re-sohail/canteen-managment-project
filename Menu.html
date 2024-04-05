@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu-container">
+        <!-- Navbar -->
+        <div class="nav">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login-btn">
+               <a href="Cart.html"><div class="cart-number">0</div></a>
+               <a href="Cart.html"><i class="ri-shopping-cart-line"></i></a>
+                <button><a href="Login.html">Login</a></button>
+                <button><a href="Registor.html">Register</a></button>
+            </div>
+        </div>
+        <!-- Menu Page 1 -->
+        <div class="menu-hero">
+            <h1>Special Menu for You</h1>
+            <div class="categories">
+                <h1>Find your Favourite</h1>
+                <div class="categories-btn">
+                    <button onclick="toggleButton(this)" class="selected">All</button>
+                    <button onclick="toggleButton(this)">Breakfast</button>
+                    <button onclick="toggleButton(this)">Lunch</button>
+                    <button onclick="toggleButton(this)">Snacks</button>
+                    <button onclick="toggleButton(this)">Dinner</button>
+                    <button onclick="toggleButton(this)">Drinks</button>
+                </div>
+            </div>
+            <div class="Category-data">
+                <div class="item">
+                    <a href="Detials.html">
+                    <div class="item-img">
+                        <img src="img/meatballs.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>MeatBalls</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/cheese-fries.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Cheese Fries</h1>
+                            <p>Rs. 100.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/cheese-maggie.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Cheese Maggie</h1>
+                            <p>Rs. 200.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/coffee.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Coffee</h1>
+                            <p>Rs. 170.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/cold-coffee.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Cold Coffee</h1>
+                            <p>Rs. 400.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/frenchfries.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>French Fries</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/garlic-maggie.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Garlic Maggie</h1>
+                            <p>Rs. 600.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/hot-coffee.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Hot Coffee</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/maggie-s.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Maggie</h1>
+                            <p>Rs. 150.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/maggie.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Chaines Meggie</h1>
+                            <p>Rs. 200.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/white-pasta.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>White Pasta</h1>
+                            <p>Rs. 250.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/sandwich2.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Sandwich</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/samosa.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Samosa</h1>
+                            <p>Rs. 50.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/schez-sandwitch.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Schez Sandwich</h1>
+                            <p>Rs. 200.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/veg-maggie.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Veg Maggie</h1>
+                            <p>Rs. 220.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/sandwich1.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>VagSandwich</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Trending -->
+        <div class="home-page4">
+            <h1>Trending</h1>
+            <div class="new-collection">
+               <div class="item">
+                <a href="Detials.html">
+                    <div class="item-img">
+                        <img src="img/meatballs.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>MeatBalls</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/Pesto Pasta  .avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Pesto Pasta</h1>
+                            <p>Rs. 500.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/tomato-sauce.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>tomato sauce</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/seafood-pasta.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Seafood pasta</h1>
+                            <p>Rs. 1590.90</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/burger.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Burger</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- New Collection -->
+        <div class="home-page4">
+            <h1>New Collection</h1>
+            <div class="new-collection">
+               <div class="item">
+                <a href="Detials.html">
+                    <div class="item-img">
+                        <img src="img/meatballs.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>MeatBalls</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/Pesto Pasta  .avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Pesto Pasta</h1>
+                            <p>Rs. 500.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/tomato-sauce.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>tomato sauce</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/seafood-pasta.avif" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Seafood pasta</h1>
+                            <p>Rs. 1590.90</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/burger.jpg" alt="">
+                    </div>
+                    <div class="items-price">
+                        <div class="item-price">
+                            <h1>Burger</h1>
+                            <p>Rs. 300.00</p>
+                        </div>
+                        <div class="add-cart">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-heading">
+                <h1>Canteen</h1>
+                <p>Management System</p>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-lower-left">
+                    <div class="lower-h">
+                        <h1>Pages</h1>
+                        <div class="lower-page">
+                            <h1><a href="index.html">Home</a></h1>
+                            <h1><a href="Menu.html">Menu</a></h1>
+                            <h1><a href="Contact.html">Contact</a></h1>
+                        </div>
+                    </div>
+                    <div class="lower-c">
+                        <div class="lower-h">
+                            <h1>Categories</h1>
+                            <div class="lower-page">
+                                <h1>Fruit and vegetables</h1>
+                                <h1>Starchy food</h1>
+                                <h1>Dairy</h1>
+                                <h1>Protein</h1>
+                                <h1>Fat</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-r">
+                        <div class="lower-h">
+                            <h1>Conatct with us</h1>
+                            <div class="social-media">
+                                <a href="/"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="/"><i class="ri-instagram-fill"></i></a>
+                                <a href="/"><i class="ri-linkedin-box-fill"></i></a>
+                                <a href="/"><i class="ri-whatsapp-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-lower-right">
+                    <h1>Join Our Newsletter</h1>
+                    <div class="newsletter-email">
+                        <input type="email" id="email" placeholder="Email" required>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleButton(button) {
+            var buttons = document.querySelectorAll('.categories-btn button');
+            var btnFirst = document.querySelectorAll('.btn');
+
+            buttons.forEach(function (btn) {
+                if (btn === button) {
+                    btn.classList.add('selected');
+
+                } else {
+                    btn.classList.remove('selected');
+                }
+            });
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const addCartButtons = document.querySelectorAll(".add-cart");
+            const cartNumber = document.querySelector(".cart-number");
+            let itemCount = 0;
+            addCartButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    itemCount++;
+                    cartNumber.textContent = itemCount;
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
